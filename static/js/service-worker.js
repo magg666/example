@@ -10,7 +10,7 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
 
-    'index.html',
+    '/index.html',
     '/static/css/style.css'
 ];
 
