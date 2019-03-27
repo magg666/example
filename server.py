@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
-
+@app.route('/')
 @app.route('/index')
 def home():
  return render_template('index.html')
@@ -13,5 +13,5 @@ def home():
 def sw():
     return app.send_static_file('sw.js')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+app.run(debug=True)
