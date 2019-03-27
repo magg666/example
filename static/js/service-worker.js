@@ -9,11 +9,11 @@ var version = 'v1::';
 /* Poniższe zasoby będą ściągane podczas instalacji naszej progresywnej appki na komputer czy komórkę. Jeżeli coś się nie powiedzie, service worker nie zostanie zainstalowany.
 */
 var offlineFundamentals = [
-    '',
+
     '/',
     '/index',
     '/static/css/style.css',
-    '/static/js/scripts.js',
+    '/static/js/scripts.js'
 ];
 
 /*  Instalacja zostanie rozpoczęta, gdy serviceworker.js zostanie najpierw zainstalowany. Możesz użyć "event listener", aby przygotować sw.js do obsługi
