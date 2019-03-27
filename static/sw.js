@@ -1,10 +1,8 @@
 var CACHE_NAME = 'offline-calculator';
 var urlsToCache = [
     '/',
-    '/index',
     '/static/style.css',
-    '/static/script.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'
+    '/static/script.js'
 ];
 self.addEventListener('install', function (event) {
     // install files needed offline
