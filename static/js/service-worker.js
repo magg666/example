@@ -11,8 +11,7 @@ var version = 'v1::';
 var offlineFundamentals = [
 
     '/',
-    '/static/css/style.css',
-    '/static/js/scripts.js'
+    '/static/css/style.css'
 ];
 
 /*  Instalacja zostanie rozpoczęta, gdy serviceworker.js zostanie najpierw zainstalowany. Możesz użyć "event listener", aby przygotować sw.js do obsługi
