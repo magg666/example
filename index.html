@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +16,7 @@
 
 <script>
     const PATH = 'static/js/service-worker.js';
-
     let isServiceWorkersSupport = ('serviceWorker' in navigator);
-
     if(isServiceWorkersSupport) {
         console.log('Will service worker register?');
         navigator.serviceWorker.register(PATH).then(function () {
