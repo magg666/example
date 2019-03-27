@@ -11,7 +11,6 @@ var version = 'v1::';
 var offlineFundamentals = [
 
     '/',
-    '/index',
     '/static/css/style.css',
     '/static/js/scripts.js'
 ];
